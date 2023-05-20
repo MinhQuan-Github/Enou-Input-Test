@@ -7,17 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBD5F6A22A1725F9003FD97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6A12A1725F9003FD97B /* AppDelegate.swift */; };
+		9F3B95C1E1C07C2798E56A0D /* Pods_Enouvo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2736553902223D5101BAD355 /* Pods_Enouvo.framework */; };
+		FBD5F6A22A1725F9003FD97B /* ENVAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6A12A1725F9003FD97B /* ENVAppDelegate.swift */; };
 		FBD5F6AB2A1725FC003FD97B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F6AA2A1725FC003FD97B /* Assets.xcassets */; };
 		FBD5F6AE2A1725FC003FD97B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F6AC2A1725FC003FD97B /* LaunchScreen.storyboard */; };
+		FBD5F6B92A187251003FD97B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6B82A187251003FD97B /* BaseViewController.swift */; };
+		FBD5F6BC2A18732F003FD97B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6BB2A18732F003FD97B /* UIImage.swift */; };
+		FBD5F6BE2A187379003FD97B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6BD2A187379003FD97B /* UIColor.swift */; };
+		FBD5F6C02A18752E003FD97B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6BF2A18752E003FD97B /* UIView.swift */; };
+		FBD5F6C32A18758D003FD97B /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6C22A18758D003FD97B /* URL.swift */; };
+		FBD5F6C52A1875E9003FD97B /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6C42A1875E9003FD97B /* BaseNavigationViewController.swift */; };
+		FBD5F6C92A187670003FD97B /* ENVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6C82A187670003FD97B /* ENVConstant.swift */; };
+		FBD5F6CB2A187827003FD97B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6CA2A187827003FD97B /* UIButton.swift */; };
+		FBD5F6CE2A187B94003FD97B /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6CD2A187B94003FD97B /* BaseManager.swift */; };
+		FBD5F6D42A187D30003FD97B /* ENVHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6D22A187D30003FD97B /* ENVHomeViewController.swift */; };
+		FBD5F6D52A187D30003FD97B /* ENVHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F6D32A187D30003FD97B /* ENVHomeViewController.xib */; };
+		FBD5F6D92A188011003FD97B /* ENVEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F6D72A188011003FD97B /* ENVEditViewController.swift */; };
+		FBD5F6DA2A188011003FD97B /* ENVEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F6D82A188011003FD97B /* ENVEditViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2736553902223D5101BAD355 /* Pods_Enouvo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enouvo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D9AAF9AAA655541B0F3459 /* Pods-Enouvo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enouvo.release.xcconfig"; path = "Target Support Files/Pods-Enouvo/Pods-Enouvo.release.xcconfig"; sourceTree = "<group>"; };
+		BE56CD7BDED6A561BEE69F48 /* Pods-Enouvo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enouvo.debug.xcconfig"; path = "Target Support Files/Pods-Enouvo/Pods-Enouvo.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD5F69E2A1725F9003FD97B /* Enouvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enouvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD5F6A12A1725F9003FD97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD5F6A12A1725F9003FD97B /* ENVAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENVAppDelegate.swift; sourceTree = "<group>"; };
 		FBD5F6AA2A1725FC003FD97B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD5F6AD2A1725FC003FD97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD5F6AF2A1725FC003FD97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD5F6B82A187251003FD97B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FBD5F6BB2A18732F003FD97B /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		FBD5F6BD2A187379003FD97B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FBD5F6BF2A18752E003FD97B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FBD5F6C22A18758D003FD97B /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		FBD5F6C42A1875E9003FD97B /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		FBD5F6C82A187670003FD97B /* ENVConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENVConstant.swift; sourceTree = "<group>"; };
+		FBD5F6CA2A187827003FD97B /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		FBD5F6CD2A187B94003FD97B /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		FBD5F6D22A187D30003FD97B /* ENVHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENVHomeViewController.swift; sourceTree = "<group>"; };
+		FBD5F6D32A187D30003FD97B /* ENVHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENVHomeViewController.xib; sourceTree = "<group>"; };
+		FBD5F6D72A188011003FD97B /* ENVEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENVEditViewController.swift; sourceTree = "<group>"; };
+		FBD5F6D82A188011003FD97B /* ENVEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENVEditViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3B95C1E1C07C2798E56A0D /* Pods_Enouvo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F47E5CF72EE3461464BACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2736553902223D5101BAD355 /* Pods_Enouvo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63D1A4D736BE01B93483D83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE56CD7BDED6A561BEE69F48 /* Pods-Enouvo.debug.xcconfig */,
+				54D9AAF9AAA655541B0F3459 /* Pods-Enouvo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FBD5F6952A1725F9003FD97B = {
 			isa = PBXGroup;
 			children = (
 				FBD5F6A02A1725F9003FD97B /* Enouvo */,
 				FBD5F69F2A1725F9003FD97B /* Products */,
+				D63D1A4D736BE01B93483D83 /* Pods */,
+				75F47E5CF72EE3461464BACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,12 +100,113 @@
 		FBD5F6A02A1725F9003FD97B /* Enouvo */ = {
 			isa = PBXGroup;
 			children = (
-				FBD5F6A12A1725F9003FD97B /* AppDelegate.swift */,
+				FBD5F6B52A1870DD003FD97B /* AppDelegate */,
+				FBD5F6B62A18721B003FD97B /* Template */,
+				FBD5F6CF2A187C26003FD97B /* Model */,
+				FBD5F6D02A187C35003FD97B /* Modules */,
+				FBD5F6C62A187653003FD97B /* Misc */,
 				FBD5F6AA2A1725FC003FD97B /* Assets.xcassets */,
 				FBD5F6AC2A1725FC003FD97B /* LaunchScreen.storyboard */,
 				FBD5F6AF2A1725FC003FD97B /* Info.plist */,
 			);
 			path = Enouvo;
+			sourceTree = "<group>";
+		};
+		FBD5F6B52A1870DD003FD97B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6A12A1725F9003FD97B /* ENVAppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FBD5F6B62A18721B003FD97B /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6B72A187238003FD97B /* Controller */,
+				FBD5F6BA2A18731B003FD97B /* Extension */,
+				FBD5F6CC2A187B84003FD97B /* Manager */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		FBD5F6B72A187238003FD97B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6B82A187251003FD97B /* BaseViewController.swift */,
+				FBD5F6C42A1875E9003FD97B /* BaseNavigationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBD5F6BA2A18731B003FD97B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6BB2A18732F003FD97B /* UIImage.swift */,
+				FBD5F6BD2A187379003FD97B /* UIColor.swift */,
+				FBD5F6BF2A18752E003FD97B /* UIView.swift */,
+				FBD5F6C22A18758D003FD97B /* URL.swift */,
+				FBD5F6CA2A187827003FD97B /* UIButton.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FBD5F6C62A187653003FD97B /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6C72A187660003FD97B /* Constant */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		FBD5F6C72A187660003FD97B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6C82A187670003FD97B /* ENVConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		FBD5F6CC2A187B84003FD97B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6CD2A187B94003FD97B /* BaseManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FBD5F6CF2A187C26003FD97B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBD5F6D02A187C35003FD97B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6D62A187FD8003FD97B /* Edit */,
+				FBD5F6D12A187CCE003FD97B /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FBD5F6D12A187CCE003FD97B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6D22A187D30003FD97B /* ENVHomeViewController.swift */,
+				FBD5F6D32A187D30003FD97B /* ENVHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FBD5F6D62A187FD8003FD97B /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5F6D72A188011003FD97B /* ENVEditViewController.swift */,
+				FBD5F6D82A188011003FD97B /* ENVEditViewController.xib */,
+			);
+			path = Edit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBD5F6B22A1725FC003FD97B /* Build configuration list for PBXNativeTarget "Enouvo" */;
 			buildPhases = (
+				07F2254F086FEA81CDF9C2CB /* [CP] Check Pods Manifest.lock */,
 				FBD5F69A2A1725F9003FD97B /* Sources */,
 				FBD5F69B2A1725F9003FD97B /* Frameworks */,
 				FBD5F69C2A1725F9003FD97B /* Resources */,
+				D18C520B2773CCCFCA8FF4DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -85,6 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ENV;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
@@ -116,19 +270,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD5F6DA2A188011003FD97B /* ENVEditViewController.xib in Resources */,
 				FBD5F6AE2A1725FC003FD97B /* LaunchScreen.storyboard in Resources */,
 				FBD5F6AB2A1725FC003FD97B /* Assets.xcassets in Resources */,
+				FBD5F6D52A187D30003FD97B /* ENVHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F2254F086FEA81CDF9C2CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enouvo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18C520B2773CCCFCA8FF4DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enouvo/Pods-Enouvo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enouvo/Pods-Enouvo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enouvo/Pods-Enouvo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBD5F69A2A1725F9003FD97B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD5F6A22A1725F9003FD97B /* AppDelegate.swift in Sources */,
+				FBD5F6CE2A187B94003FD97B /* BaseManager.swift in Sources */,
+				FBD5F6C02A18752E003FD97B /* UIView.swift in Sources */,
+				FBD5F6BC2A18732F003FD97B /* UIImage.swift in Sources */,
+				FBD5F6BE2A187379003FD97B /* UIColor.swift in Sources */,
+				FBD5F6A22A1725F9003FD97B /* ENVAppDelegate.swift in Sources */,
+				FBD5F6B92A187251003FD97B /* BaseViewController.swift in Sources */,
+				FBD5F6C52A1875E9003FD97B /* BaseNavigationViewController.swift in Sources */,
+				FBD5F6D42A187D30003FD97B /* ENVHomeViewController.swift in Sources */,
+				FBD5F6D92A188011003FD97B /* ENVEditViewController.swift in Sources */,
+				FBD5F6C32A18758D003FD97B /* URL.swift in Sources */,
+				FBD5F6C92A187670003FD97B /* ENVConstant.swift in Sources */,
+				FBD5F6CB2A187827003FD97B /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,18 +471,20 @@
 		};
 		FBD5F6B32A1725FC003FD97B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE56CD7BDED6A561BEE69F48 /* Pods-Enouvo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQJ6Y3982Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Enouvo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,18 +500,20 @@
 		};
 		FBD5F6B42A1725FC003FD97B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D9AAF9AAA655541B0F3459 /* Pods-Enouvo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQJ6Y3982Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Enouvo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
