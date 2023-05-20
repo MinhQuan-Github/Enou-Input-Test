@@ -1,0 +1,53 @@
+PODS:
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManagerSwift (6.5.11)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - ObjectMapper (4.2.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.15.7):
+    - SDWebImage/Core (= 5.15.7)
+  - SDWebImage/Core (5.15.7)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
+  - KRProgressHUD
+  - ObjectMapper
+  - RxRelay
+  - RxSwift
+  - Toast (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - ObjectMapper
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Toast
+
+SPEC CHECKSUMS:
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 25bac438318faf37e35650619ebc288a9061d292
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 04987bd18b4973f349e6eaa345c2b30dcfb74ffd
+
+COCOAPODS: 1.11.3
